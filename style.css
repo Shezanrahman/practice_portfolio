@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+img{
+    max-width: 100%;
+}
+/*Common Button*/
+.common_btn{
+    background-color:#fd6e0a;
+    padding: 8px 12px;
+    border-radius: 3px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+/*Outline Button*/
+.outline_btn{
+    background-color:white;
+    padding: 8px 12px;
+    border-radius: 3px;
+    color: #fd6e0a;
+    border: 1px solid #fd6e0a;
+    cursor: pointer;
+}
+/*Sizing*/
+.size_fixing{
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+}
+/*Nav start*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.left_nav h2{
+    font-weight: 800;
+    font-size: 30px;
+}
+.left_nav h2 span{
+    color: #fd6e0a;
+}
+.right_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+.right_nav li a{
+    text-decoration: none;
+    color: black;
+
+}
+/*Nav end*/
+/*Banner start*/
+.hero_parent{
+    background-color: #FFF8F3;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left_hero{
+    margin-left: 10px;
+}
+.left_hero > p:first-of-type{
+    font-weight: 600;
+    font-size: 32px;
+}
+.left_hero h2{
+    font-weight: 700;
+    font-size: 60px;
+}
+.left_hero_button{
+    margin-top: 20px;
+}
+.download_btn{
+    margin-right: 20px;
+}
+/*Banner start*/
+/*About start*/
+.about{
+    background-color: #FFF8F3;
+    margin: 100px 200px;
+    padding: 50px 100px;
+    border-radius: 20px;
+}
+.about_me{
+    text-align: center;
+    margin: 50px;
+}
+.about_info{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 30px 50px;
+}
+/*About end*/
+/*--What i do section start*/
+.What_i_do{
+    background-color: #fd6e0a;
+    margin: 100px 80px 20px 80px;
+    padding: 100px 40px;
+}
+.upper_what{
+    text-align: center;
+}
+.upper_what p{
+    margin-top: 20px
+}
+.lower_what{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
