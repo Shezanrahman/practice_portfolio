@@ -105,18 +105,32 @@ nav{
 /*About end*/
 /*--What i do section start*/
 .What_i_do{
-    background-color: #fd6e0a;
-    margin: 100px 80px 20px 80px;
-    padding: 100px 40px;
+    margin:55px 200px;
 }
 .upper_what{
     text-align: center;
 }
 .upper_what p{
-    margin-top: 20px
+    margin: 40px; 
 }
 .lower_what{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 15px;
 }
+.lower_grid{
+    background-color: #ffffff;
+    padding: 40px 10px 30px 10px;
+    border-radius: 10px;
+    box-shadow: 5px 10px rgb(204, 204, 211);
+}
+.lower_grid h4{
+    margin-top: 20px;
+}
+.lower_grid p{
+    font-size: 13px;
+    margin-top: 20px;
+    line-height: 1.7;
+}
+/*--What i do section end*/
