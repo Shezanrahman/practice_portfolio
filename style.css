@@ -119,18 +119,54 @@ nav{
     align-items: center;
     gap: 15px;
 }
-.lower_grid{
+.lower_what_skill{
     background-color: #ffffff;
     padding: 40px 10px 30px 10px;
     border-radius: 10px;
     box-shadow: 5px 10px rgb(204, 204, 211);
 }
-.lower_grid h4{
+.lower_what_skill h4{
     margin-top: 20px;
 }
-.lower_grid p{
+.lower_what_skill p{
     font-size: 13px;
     margin-top: 20px;
     line-height: 1.7;
 }
 /*--What i do section end*/
+/*Summary section start*/
+.summary{
+    margin:50px 200px 50px 200px;
+}
+.summary_head{
+    text-align: center;
+}
+.summary_info{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 60px 0px 30px 0px;
+}
+.summary_info_sec{
+    padding: 20px 0px 30px 0px;
+}
+.summary_info_sec h4{
+    margin-bottom: 5px;
+}
+.summary_info_sec h5{
+    color: #777786;
+}
+.summary_info_sec p{
+    font-size: 14px;
+    margin-top: 10px;
+    color: #777786;
+}
+.summary_btn{
+    display: flex;
+    margin:auto;
+}
+.summary_btn img{
+    width: 20px;
+    margin-right: 5px;
+}
+/*Summary section end*/
